@@ -1,5 +1,7 @@
 let buttons = document.getElementsByTagName("button");
+
 let result = document.getElementById("result");
+
 
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].onclick = function () {
